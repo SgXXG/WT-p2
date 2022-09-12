@@ -8,12 +8,10 @@ import java.util.Scanner;
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
+        System.out.print("Введите x: ");
         double x = scanner.nextDouble();
+        System.out.print("Введите y: ");
         double y = scanner.nextDouble();
-
-        System.out.println(x);
-        System.out.println(y);
 
         double temp = Math.sin(x+y);
         temp = temp + 1;
@@ -29,7 +27,6 @@ import java.util.Scanner;
         fraction = temp / temp3;
 
         double result = fraction + x;
-        System.out.print("Result: ");
-        System.out.format("result = %.3f%n", result);
+        System.out.format("Result = %.3f%n", result);
     }
 }
