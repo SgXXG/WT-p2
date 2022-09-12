@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
@@ -16,9 +17,7 @@ public class Main {
         }
 
         System.out.println("Array: ");
-        for (int i = 0; i < n; i++){
-            System.out.print(array[i] + " ");
-        }
+        System.out.println(Arrays.toString(array));
 
         System.out.println("\nИндексы простых чисел:");
         for (int i = 0; i < n; i++){
