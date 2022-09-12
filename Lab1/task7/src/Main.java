@@ -24,7 +24,7 @@ public class Main {
         int[] array;
         array = new int[n];
 
-        for (int i = 0; i < n; i++){
+        for (int i = 0; i < array.length; i++){
             System.out.print("Введите элемент массива: ");
             array[i] = scanner.nextInt();
         }

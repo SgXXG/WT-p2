@@ -11,7 +11,7 @@ public class Main {
         int[] array;
         array = new int[n];
 
-        for (int i = 0; i < n; i++){
+        for (int i = 0; i < array.length; i++){
             System.out.print("Введите элемент массива: ");
             array[i] = scanner.nextInt();
         }
@@ -20,7 +20,7 @@ public class Main {
         System.out.println(Arrays.toString(array));
 
         System.out.println("\nИндексы простых чисел:");
-        for (int i = 0; i < n; i++){
+        for (int i = 0; i < array.length; i++){
             boolean prime = isPrime(array[i]);
             if (prime){
                 System.out.print(i + " ");
