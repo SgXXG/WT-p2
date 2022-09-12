@@ -16,15 +16,18 @@ public class Main {
         int y3 = -3;
 
         // User point
+        System.out.println("Введите вашу точку:");
         Scanner scanner = new Scanner(System.in);
+        System.out.print("Введите координату x: ");
         int x = scanner.nextInt();
+        System.out.print("Введите координату y: ");
         int y = scanner.nextInt();
 
         boolean res1 = Affilate(x1, y1, x0, y0, x, y);
         boolean res2 = Affilate(x3, y3, x2, y2, x, y);
         boolean result = res1 || res2;
 
-        System.out.println(result);
+        System.out.print("Result: " + result);
     }
     // Checking point
     public static boolean Affilate(int x0, int y0, int x1, int y1, int x, int y) {
