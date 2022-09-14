@@ -1,5 +1,3 @@
-import static java.lang.Float.NaN;
-
 public class Book {
     private String title;
     private String author;

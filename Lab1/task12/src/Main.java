@@ -1,9 +1,6 @@
-import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
 
-        Scanner scanner = new Scanner(System.in);
         Book Book1 = new Book("book1");
         Book1.setAuthor("author1");
         Book1.setPrice(100);
