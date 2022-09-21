@@ -33,10 +33,21 @@ public class myComparator implements Comparator<Book>, myNewComparator {
         for (String bb: titleList) {
             System.out.print(bb + " ");
         }
-
         System.out.println("");
         System.out.println("Sorted by the title and author: ");
-        
+
+        for (Book b: books) {
+            titleList.add(b.getAuthor());
+        }
+
+        Collections.sort(titleList);
+
+        System.out.println("Sorted by the title: ");
+        for (String bb: titleList) {
+            System.out.print(bb + " ");
+        }
+        System.out.println("");
+        System.out.println("Sorted by the title and author: ");
 
         return 0;
     }
