@@ -1,3 +1,5 @@
+import java.util.Comparator;
+
 public class Book implements Comparable<Book> {
     private String title;
     private String author;
@@ -23,6 +25,15 @@ public class Book implements Comparable<Book> {
 
     public int getISBN() { return isbn; }
     public void setISBN(int isbn) {this.isbn = isbn; }
+/*
+    public static final Comparator<Book> comparatorBookTitle =
+            (Book b1, Book b2) -> (b1.getTitle(b1) - b2.getTitle(b2));
+
+    public static final Comparator<Book> comparatorBookAuthor =
+            (Book b1, Book b2) -> (b1.getAuthor() - b2.getAuthor());
+*/
+    public static final Comparator<Book> comparatorBookPrice =
+            (Book b1, Book b2) -> (b1.getPrice() - b2.getPrice());
 
     @Override
     public String toString() {

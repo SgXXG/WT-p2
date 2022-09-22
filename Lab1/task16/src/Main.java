@@ -1,9 +1,8 @@
-import java.util.ArrayList;
-import java.util.Comparator;
+import java.util.TreeSet;
 
 public class Main {
     public static void main(String[] args) {
-        ArrayList<Book> bookArrayList = new ArrayList<Book>();
+        TreeSet<Book> bookArrayList = new TreeSet<Book>();
 
         Book Book1 = new Book("book1");
         Book1.setAuthor("author1");
@@ -17,12 +16,21 @@ public class Main {
         Book2.setAuthor("author1");
         Book2.setPrice(200);
         Book2.setEdition(2);
-        Book2.setISBN(134);
+        Book2.setISBN(135);
 
         System.out.println(Book2);
 
+        Book Book3 = new Book("aaok1");
+        Book3.setAuthor("author1");
+        Book3.setPrice(50);
+        Book3.setEdition(2);
+        Book3.setISBN(100);
+
+        System.out.println(Book3);
+
         bookArrayList.add(Book1);
         bookArrayList.add(Book2);
+        bookArrayList.add(Book3);
 
         if (Book1.equals(Book2)){
             System.out.println("Equals");
@@ -31,22 +39,19 @@ public class Main {
             System.out.println("NOT Equals");
         }
 
-        myComparator comparator = new myComparator();
-        bookArrayList.sort(comparator);
+        System.out.println("");
+        System.out.println("Before sort");
+        for (Book h: bookArrayList) {
+            System.out.println(h);
+        }
+
+        System.out.println("");
+        System.out.println("After sort");
+        bookArrayList.stream().sorted(Book.comparatorBookPrice);
 
         for (Book h: bookArrayList) {
             System.out.println(h);
         }
 
-        ArrayList<String> bookLists = new ArrayList<String>();
-
-
-        for (Book b: bookArrayList) {
-            bookLists.add(b.getTitle(b));
-        }
-
-        for (String bb: bookLists) {
-            System.out.println(bb);
-        }
     }
 }
