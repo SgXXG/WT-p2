@@ -16,7 +16,6 @@ public class Main {
         for (int i = 0; i < arrayB.length; i++){
             System.out.printf("input %d after A[%d] \n", arrayB[i], result[i]);
         }
-
     }
 }
 
