@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="17" class="java.beans.XMLDecoder">
+ <object class="main.java.by.bsuir.WT.lab2.entity.Kettle">
+  <void property="color">
+   <object class="java.lang.Enum" method="valueOf">
+    <class>main.java.by.bsuir.WT.lab2.entity.enums.Color</class>
+    <string>BLACK</string>
+   </object>
+  </void>
+  <void property="name">
+   <string>Scarlett SC-EK27G73</string>
+  </void>
+  <void property="powerConsumption">
+   <int>2000</int>
+  </void>
+  <void property="price">
+   <double>40.0</double>
+  </void>
+  <void property="waterCapacity">
+   <double>1700.0</double>
+  </void>
+ </object>
+ <object class="main.java.by.bsuir.WT.lab2.entity.Kettle">
+  <void property="color">
+   <object class="java.lang.Enum" id="Color0" method="valueOf">
+    <class>main.java.by.bsuir.WT.lab2.entity.enums.Color</class>
+    <string>WHITE</string>
+   </object>
+  </void>
+  <void property="name">
+   <string>Redmond SkyKettle RK-M216S</string>
+  </void>
+  <void property="powerConsumption">
+   <int>2200</int>
+  </void>
+  <void property="price">
+   <double>120.0</double>
+  </void>
+  <void property="waterCapacity">
+   <double>1700.0</double>
+  </void>
+ </object>
+ <object class="main.java.by.bsuir.WT.lab2.entity.Kettle">
+  <void property="color">
+   <object idref="Color0"/>
+  </void>
+  <void property="name">
+   <string>Bosch TWK8611P</string>
+  </void>
+  <void property="powerConsumption">
+   <int>2400</int>
+  </void>
+  <void property="price">
+   <double>183.0</double>
+  </void>
+  <void property="waterCapacity">
+   <double>1500.0</double>
+  </void>
+ </object>
+ <object class="main.java.by.bsuir.WT.lab2.entity.Oven">
+  <void property="capacity">
+   <int>32</int>
+  </void>
+  <void property="depth">
+   <int>60</int>
+  </void>
+  <void property="height">
+   <double>45.5</double>
+  </void>
+  <void property="name">
+   <string>Samsung NV68R1310BS</string>
+  </void>
+  <void property="powerConsumption">
+   <int>1000</int>
+  </void>
+  <void property="price">
+   <double>799.0</double>
+  </void>
+  <void property="weight">
+   <int>10</int>
+  </void>
+  <void property="width">
+   <double>59.5</double>
+  </void>
+ </object>
+ <object class="main.java.by.bsuir.WT.lab2.entity.Oven">
+  <void property="capacity">
+   <int>33</int>
+  </void>
+  <void property="depth">
+   <int>60</int>
+  </void>
+  <void property="height">
+   <double>45.0</double>
+  </void>
+  <void property="name">
+   <string>Bosch HBG557SB0R</string>
+  </void>
+  <void property="powerConsumption">
+   <int>1500</int>
+  </void>
+  <void property="price">
+   <double>1509.0</double>
+  </void>
+  <void property="weight">
+   <int>12</int>
+  </void>
+  <void property="width">
+   <double>68.0</double>
+  </void>
+ </object>
+ <object class="main.java.by.bsuir.WT.lab2.entity.Oven">
+  <void property="capacity">
+   <int>33</int>
+  </void>
+  <void property="depth">
+   <int>60</int>
+  </void>
+  <void property="height">
+   <double>40.0</double>
+  </void>
+  <void property="name">
+   <string>LG WSEZD7225S1</string>
+  </void>
+  <void property="powerConsumption">
+   <int>2000</int>
+  </void>
+  <void property="price">
+   <double>1140.0</double>
+  </void>
+  <void property="weight">
+   <int>11</int>
+  </void>
+  <void property="width">
+   <double>70.0</double>
+  </void>
+ </object>
+ <object class="main.java.by.bsuir.WT.lab2.entity.Laptop">
+  <void property="batteryCapacity">
+   <double>1.0</double>
+  </void>
+  <void property="cpu">
+   <double>1.2</double>
+  </void>
+  <void property="displayInches">
+   <int>18</int>
+  </void>
+  <void property="memoryRom">
+   <int>4000</int>
+  </void>
+  <void property="name">
+   <string>HONOR MagicBook 15 2021 BDR-WFH9HN 53011TAP</string>
+  </void>
+  <void property="os">
+   <object class="java.lang.Enum" id="OS0" method="valueOf">
+    <class>main.java.by.bsuir.WT.lab2.entity.enums.OS</class>
+    <string>WINDOWS</string>
+   </object>
+  </void>
+  <void property="price">
+   <double>2667.0</double>
+  </void>
+  <void property="systemMemory">
+   <int>1000</int>
+  </void>
+ </object>
+ <object class="main.java.by.bsuir.WT.lab2.entity.Laptop">
+  <void property="batteryCapacity">
+   <double>1.5</double>
+  </void>
+  <void property="cpu">
+   <double>2.2</double>
+  </void>
+  <void property="displayInches">
+   <int>19</int>
+  </void>
+  <void property="memoryRom">
+   <int>8000</int>
+  </void>
+  <void property="name">
+   <string>Lenovo IdeaPad 3 15ALC6 82KU00B3RK</string>
+  </void>
+  <void property="os">
+   <object class="java.lang.Enum" method="valueOf">
+    <class>main.java.by.bsuir.WT.lab2.entity.enums.OS</class>
+    <string>LINUX</string>
+   </object>
+  </void>
+  <void property="price">
+   <double>1599.0</double>
+  </void>
+  <void property="systemMemory">
+   <int>1000</int>
+  </void>
+ </object>
+ <object class="main.java.by.bsuir.WT.lab2.entity.Laptop">
+  <void property="batteryCapacity">
+   <double>3.0</double>
+  </void>
+  <void property="cpu">
+   <double>3.2</double>
+  </void>
+  <void property="displayInches">
+   <int>22</int>
+  </void>
+  <void property="memoryRom">
+   <int>8000</int>
+  </void>
+  <void property="name">
+   <string>HP 15s-eq2028ur 3C8P7EA</string>
+  </void>
+  <void property="os">
+   <object idref="OS0"/>
+  </void>
+  <void property="price">
+   <double>1445.0</double>
+  </void>
+  <void property="systemMemory">
+   <int>1500</int>
+  </void>
+ </object>
+ <object class="main.java.by.bsuir.WT.lab2.entity.Refrigerator">
+  <void property="freezerCapacity">
+   <double>10.0</double>
+  </void>
+  <void property="height">
+   <double>200.0</double>
+  </void>
+  <void property="name">
+   <string>Samsung RB33A3240WW/WT</string>
+  </void>
+  <void property="overallCapacity">
+   <double>300.0</double>
+  </void>
+  <void property="powerConsumption">
+   <int>100</int>
+  </void>
+  <void property="price">
+   <double>1199.0</double>
+  </void>
+  <void property="weight">
+   <double>20.0</double>
+  </void>
+  <void property="width">
+   <double>70.0</double>
+  </void>
+ </object>
+ <object class="main.java.by.bsuir.WT.lab2.entity.Refrigerator">
+  <void property="freezerCapacity">
+   <double>15.0</double>
+  </void>
+  <void property="height">
+   <double>180.0</double>
+  </void>
+  <void property="name">
+   <string>LG GA-B509CMTL</string>
+  </void>
+  <void property="overallCapacity">
+   <double>300.0</double>
+  </void>
+  <void property="powerConsumption">
+   <int>200</int>
+  </void>
+  <void property="price">
+   <double>1599.0</double>
+  </void>
+  <void property="weight">
+   <double>30.0</double>
+  </void>
+  <void property="width">
+   <double>80.0</double>
+  </void>
+ </object>
+ <object class="main.java.by.bsuir.WT.lab2.entity.Refrigerator">
+  <void property="freezerCapacity">
+   <double>20.0</double>
+  </void>
+  <void property="height">
+   <double>250.0</double>
+  </void>
+  <void property="name">
+   <string>ATLANT ХМ 4307-000</string>
+  </void>
+  <void property="overallCapacity">
+   <double>350.5</double>
+  </void>
+  <void property="powerConsumption">
+   <int>150</int>
+  </void>
+  <void property="price">
+   <double>851.0</double>
+  </void>
+  <void property="weight">
+   <double>35.0</double>
+  </void>
+  <void property="width">
+   <double>75.0</double>
+  </void>
+ </object>
+ <object class="main.java.by.bsuir.WT.lab2.entity.VacuumCleaner">
+  <void property="bagType">
+   <string>A2</string>
+  </void>
+  <void property="cleaningWidth">
+   <double>20.0</double>
+  </void>
+  <void property="filterType">
+   <string>A</string>
+  </void>
+  <void property="motorSpeedRegulation">
+   <double>3000.0</double>
+  </void>
+  <void property="name">
+   <string>Samsung VS15R8542S1/EV</string>
+  </void>
+  <void property="powerConsumption">
+   <double>100.0</double>
+  </void>
+  <void property="price">
+   <double>975.0</double>
+  </void>
+  <void property="wandType">
+   <string>all-in-one</string>
+  </void>
+ </object>
+ <object class="main.java.by.bsuir.WT.lab2.entity.VacuumCleaner">
+  <void property="bagType">
+   <string>AA-89</string>
+  </void>
+  <void property="cleaningWidth">
+   <double>25.0</double>
+  </void>
+  <void property="filterType">
+   <string>B</string>
+  </void>
+  <void property="motorSpeedRegulation">
+   <double>2900.0</double>
+  </void>
+  <void property="name">
+   <string>Redmond RV-UR360</string>
+  </void>
+  <void property="powerConsumption">
+   <double>100.0</double>
+  </void>
+  <void property="price">
+   <double>523.0</double>
+  </void>
+  <void property="wandType">
+   <string>all-in-one</string>
+  </void>
+ </object>
+ <object class="main.java.by.bsuir.WT.lab2.entity.VacuumCleaner">
+  <void property="bagType">
+   <string>XX00</string>
+  </void>
+  <void property="cleaningWidth">
+   <double>30.0</double>
+  </void>
+  <void property="filterType">
+   <string>C</string>
+  </void>
+  <void property="motorSpeedRegulation">
+   <double>2950.0</double>
+  </void>
+  <void property="name">
+   <string>Mamibot Cordlesser V8</string>
+  </void>
+  <void property="powerConsumption">
+   <double>100.0</double>
+  </void>
+  <void property="price">
+   <double>482.0</double>
+  </void>
+  <void property="wandType">
+   <string>all-in-one</string>
+  </void>
+ </object>
+ <object class="main.java.by.bsuir.WT.lab2.entity.TabletPC">
+  <void property="batteryCapacity">
+   <double>3.0</double>
+  </void>
+  <void property="color">
+   <object class="java.lang.Enum" method="valueOf">
+    <class>main.java.by.bsuir.WT.lab2.entity.enums.Color</class>
+    <string>BLUE</string>
+   </object>
+  </void>
+  <void property="displayInches">
+   <int>14</int>
+  </void>
+  <void property="flashMemoryCapacity">
+   <double>2.0</double>
+  </void>
+  <void property="memoryRom">
+   <double>8000.0</double>
+  </void>
+  <void property="name">
+   <string>Xiaomi Pad 5</string>
+  </void>
+  <void property="price">
+   <double>1175.0</double>
+  </void>
+ </object>
+ <object class="main.java.by.bsuir.WT.lab2.entity.TabletPC">
+  <void property="batteryCapacity">
+   <double>4.0</double>
+  </void>
+  <void property="color">
+   <object class="java.lang.Enum" method="valueOf">
+    <class>main.java.by.bsuir.WT.lab2.entity.enums.Color</class>
+    <string>RED</string>
+   </object>
+  </void>
+  <void property="displayInches">
+   <int>15</int>
+  </void>
+  <void property="flashMemoryCapacity">
+   <double>6.0</double>
+  </void>
+  <void property="memoryRom">
+   <double>8000.0</double>
+  </void>
+  <void property="name">
+   <string>Samsung Galaxy Tab A7</string>
+  </void>
+  <void property="price">
+   <double>699.0</double>
+  </void>
+ </object>
+ <object class="main.java.by.bsuir.WT.lab2.entity.TabletPC">
+  <void property="batteryCapacity">
+   <double>5.0</double>
+  </void>
+  <void property="color">
+   <object class="java.lang.Enum" method="valueOf">
+    <class>main.java.by.bsuir.WT.lab2.entity.enums.Color</class>
+    <string>GREEN</string>
+   </object>
+  </void>
+  <void property="displayInches">
+   <int>16</int>
+  </void>
+  <void property="flashMemoryCapacity">
+   <double>8.0</double>
+  </void>
+  <void property="memoryRom">
+   <double>16000.0</double>
+  </void>
+  <void property="name">
+   <string>Apple iPad Pro M1</string>
+  </void>
+  <void property="price">
+   <double>2350.0</double>
+  </void>
+ </object>
+ <object class="main.java.by.bsuir.WT.lab2.entity.Speakers">
+  <void property="cordLength">
+   <int>2</int>
+  </void>
+  <void property="frequencyRangeMax">
+   <double>4.0</double>
+  </void>
+  <void property="frequencyRangeMin">
+   <double>2.0</double>
+  </void>
+  <void property="name">
+   <string>Bose Portable Home Speaker</string>
+  </void>
+  <void property="numberOfSpeakers">
+   <int>2</int>
+  </void>
+  <void property="powerConsumption">
+   <int>15</int>
+  </void>
+  <void property="price">
+   <double>1088.0</double>
+  </void>
+ </object>
+ <object class="main.java.by.bsuir.WT.lab2.entity.Speakers">
+  <void property="cordLength">
+   <int>3</int>
+  </void>
+  <void property="frequencyRangeMax">
+   <double>4.0</double>
+  </void>
+  <void property="frequencyRangeMin">
+   <double>3.0</double>
+  </void>
+  <void property="name">
+   <string>Bang &amp; Olufsen Beosound A1 2nd Gen</string>
+  </void>
+  <void property="numberOfSpeakers">
+   <int>3</int>
+  </void>
+  <void property="powerConsumption">
+   <int>20</int>
+  </void>
+  <void property="price">
+   <double>669.0</double>
+  </void>
+ </object>
+ <object class="main.java.by.bsuir.WT.lab2.entity.Speakers">
+  <void property="cordLength">
+   <int>4</int>
+  </void>
+  <void property="frequencyRangeMax">
+   <double>3.5</double>
+  </void>
+  <void property="frequencyRangeMin">
+   <double>2.0</double>
+  </void>
+  <void property="name">
+   <string>Xiaomi Mi Pocket Speaker 2</string>
+  </void>
+  <void property="numberOfSpeakers">
+   <int>4</int>
+  </void>
+  <void property="powerConsumption">
+   <int>17</int>
+  </void>
+  <void property="price">
+   <double>45.0</double>
+  </void>
+ </object>
+</java>
