@@ -1,0 +1,48 @@
+{
+  "configuration": {
+    "monitorInterval": "1",
+    "name": "Default",
+    "appenders": {
+      "Console": {
+        "name":"Console_1",
+        "target":"SYSTEM_OUT",
+        "PatternLayout": {
+          "pattern":"%d{HH:mm:ss} [%t] %-5level %logger{1} - %msg%n"
+        }
+      },
+      "RollingFile": {
+        "name":"File",
+        "fileName":"logs/hotel.log",
+        "filePattern":"logs/archive/salad-backup-%d{MM-dd-yy-HH-mm-ss}-%i.log.zip",
+        "PatternLayout": {
+          "pattern":"%d{yyyy-MM-dd HH:mm:ss} %-5level %logger{4}:%L - %msg%n"
+        },
+        "Policies": {
+          "SizeBasedTriggeringPolicy": {
+            "size":"20 KB"
+          }
+        },
+        "DefaultRolloverStrategy": {
+          "max":"10"
+        }
+      }
+    },
+    "loggers": {
+      "root": {
+        "LevelRangeFilter": {
+          "minLevel": "fatal",
+          "maxLevel": "trace",
+          "onMatch": "ACCEPT",
+          "onMismatch": "DENY"
+        },
+        "level":"info",
+        "appender-ref": [{
+          "ref":"Console_1"
+        },
+          {
+            "ref":"File"
+          }]
+      }
+    }
+  }
+}
